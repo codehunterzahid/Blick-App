@@ -92,6 +92,7 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
+    background-color: #F3F5F6;
 }
 
 .t-text{
