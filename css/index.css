@@ -120,3 +120,61 @@
 .t-img img{
     border-radius: 20px;
 }
+
+/* reviews section  */
+.review{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: black;
+    padding-top: 5%;
+}
+.review h5{
+    text-align: center;
+    color: #E03584;
+}
+.review h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    padding-bottom: 5%;
+}
+.r-row{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.r-col1{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+}
+
+.r-col2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.r-img{
+    width: 100%;
+    margin-right: 20px;
+}
+.r-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.r-text p{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.r-text span{
+    font-style: italic;
+}
