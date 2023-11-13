@@ -54,6 +54,62 @@
     padding-top: 15%;
 }
 
+@media  screen and (max-width:400px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 160vh;
+    }
+    .h-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .h-text h1{
+        font-size: 40px;
+    }
+    .h-img{
+        width: 100%;
+    }
+    .h-img img{
+        padding: 5%;
+    }
+    
+}
+@media  (min-width:400px) and (max-width:600px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .h-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .h-text h1{
+        font-size: 40px;
+    }
+    .h-img{
+        width: 100%;
+    }    
+}
+@media  (min-width:600px) and (max-width:900px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 270vh;
+    }
+    .h-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .h-text h1{
+        font-size: 70px;
+    }
+    .h-img{
+        width: 100%;
+    }    
+}
+
 /* second section is here  */
 .second{
     width: 100%;
@@ -85,6 +141,64 @@
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+@media screen and (max-width:400px){
+    .second{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .s-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .s-text h1{
+        font-size: 40px;
+    }
+    .s-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .second{
+        display: flex;
+        flex-direction: column;
+        height: 155vh;
+    }
+    .s-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .s-text h1{
+        font-size: 50px;
+    }
+    .s-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .second{
+        display: flex;
+        flex-direction: column;
+        height: 190vh;
+    }
+    .s-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .s-text h1{
+        font-size: 70px;
+    }
+    .s-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
 
 /* third section is here  */
 .t{
@@ -120,6 +234,64 @@
 .t-img img{
     border-radius: 20px;
 }
+
+@media screen and (max-width:400px){
+    .t{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .t-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .t-text h1{
+        font-size: 40px;
+    }
+    .t-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .t{
+        display: flex;
+        flex-direction: column;
+        height: 155vh;
+    }
+    .t-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .t-text h1{
+        font-size: 50px;
+    }
+    .t-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .t{
+        display: flex;
+        flex-direction: column;
+        height: 190vh;
+    }
+    .t-text{
+        width: 100%;
+        padding: 10%;
+    }
+    .t-text h1{
+        font-size: 70px;
+    }
+    .t-img{
+        width: 100%;
+        padding: 5%;
+    }
+}
+
 
 /* reviews section  */
 .review{
@@ -179,6 +351,60 @@
     font-style: italic;
 }
 
+@media screen and (max-width:400px){
+    .review{
+        height: 200vh;
+        padding: 5%;
+    }
+    .review h1{
+        font-size: 35px;
+        padding-bottom: 40%;
+    }
+    .r-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .r-col1, .r-col2{
+        width: 100%;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .review{
+        height: 150vh;
+        padding: 5%;
+    }
+    .review h1{
+        font-size: 50px;
+        padding-bottom: 20%;
+    }
+    .r-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .r-col1, .r-col2{
+        width: 100%;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .review{
+        height: 160vh;
+        padding: 5%;
+    }
+    .review h1{
+        font-size: 70px;
+        padding-bottom: 20%;
+    }
+    .r-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .r-col1, .r-col2{
+        width: 100%;
+    }
+}
+
 /* team section is styling here  */
 .team{
     width: 100%;
@@ -201,6 +427,32 @@
 .team div span{
     font-size: 90px;
     font-weight: bolder;
+}
+
+@media screen and (max-width:400px){
+    .team{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+    }
+    .team div{
+        width: 100%;
+        height: 30vh;
+    }
+}
+
+@media (min-width:400px) and (max-width:900px){
+    .team{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150vh;
+    }
+    .team div{
+        width: 100%;
+        height: 30vh;
+    }
 }
 
 /* platform section  */
@@ -256,6 +508,57 @@
 .p-text a:hover{
     background-color: #7634BF;
     color: white;
+}
+
+@media screen and (max-width:400px){
+    .plat{
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+    }
+    .p-img, .p-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .p-img img{
+        width: 80%;
+    }
+    .p-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .plat{
+        display: flex;
+        flex-direction: column;
+        height: 190vh;
+    }
+    .p-img, .p-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .p-img img{
+        width: 90%;
+    }
+    .p-text h1{
+        font-size: 50px;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px){
+    .plat{
+        display: flex;
+        flex-direction: column;
+        height: 220vh;
+    }
+    .p-img, .p-text{
+        width: 100%;
+        padding: 5%;
+    }
+    .p-text h1{
+        font-size: 70px;
+    }
 }
 
 /* footer section  */
